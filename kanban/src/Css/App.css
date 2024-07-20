@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    background-color: #1e1e1e; /* Fallback color */
+    background: 
+        linear-gradient(180deg, #2A2826 0%, rgba(30,30,30,1) 100%) 0 0 / 100% 100vh no-repeat, 
+        #1e1e1e;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* For demonstration purposes */
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+
+.btn {
+    width: inherit;
+    display: flex;
+    box-shadow: 0px 4px 4px #00000025;
+    
+    background: #55FFFF;
+    cursor: pointer;
+    border: 2px solid transparent;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 8px; 
+    font-size: 16px;
+    font-weight: 600;
+    box-sizing: border-box;
+    
+}
+.btn:hover{
+    border: 2px solid #55FFFF;
+    transition: 0.2s;
+    color: white;
+    backdrop-filter: blur(10px);
+    background:  rgba(44,44,44,0.8);
+    box-shadow: 0px 0px 3px 3px #55FFFF50;
+}
+
+
+.bounding{
+    box-sizing: border-box;
+    max-width: 1440px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+
+
+@media (max-width: 1440px) {
+
+
+
+    .bounding{
+    
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+    
+    
+    }
+
+@media  (max-width: 1200px){
+
+    .btn{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 40px;
+        box-sizing: border-box;
+        color: white;
+        background: rgb(50,39,68);
+        
+        background: linear-gradient(90deg, rgba(50,39,68,0.8) 0%, rgba(50,37,71,0.8) 35%, rgba(44,44,44,0.8) 100%);
+        backdrop-filter: blur(30px);
+        align-items: center;
+        justify-content: center;
+    }
+}
+    
