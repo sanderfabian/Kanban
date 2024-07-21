@@ -5,7 +5,8 @@ export default function HeroDiagram() {
   return (
     <div>
         <div style={{background:"rgb(59,52,62)", background:" linear-gradient(229deg, rgba(59,52,62,1) 0%, rgba(59,52,62,0) 100%)", height:"380px", width:"400px",borderRadius:"20px",position:"relative",marginRight:"40px",marginLeft:"40px"}}>
-            <div className='hero-circle'>
+            <div className='hero-circle' style={{boxShadow:'inset 0px 0px 8px 1px #55ffff,0px 0px 5px  #55ffff ,3px 4px 4px 0px #00000050' }}>
+            
             </div>
             <div className='hero-todo'>
                     <img style={{height:"30px"}} src='https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-3d/256/Clipboard-3d-icon.png'/>

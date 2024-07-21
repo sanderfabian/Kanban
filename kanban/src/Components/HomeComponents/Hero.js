@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className='hero-section'>
     
-        <div style={{display:"flex",zIndex:'2', flexDirection:"column",gap:"20px",flex:"1",justifyContent:"space-between",minWidth:'50%'}}>
+        <div style={{display:"flex",zIndex:'5', flexDirection:"column",gap:"20px",flex:"1",justifyContent:"space-between",minWidth:'50%'}}>
           <div style={{display:"flex", flexDirection:"column",justifyContent:'center',flex:'1',gap:'20px'}}>
             <div style={{display:"flex", flexDirection:"column",lineHeight:"40px"}}>
                 <h1 style={{margin:"0px"}}>Kanban</h1>
