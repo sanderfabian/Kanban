@@ -69,7 +69,7 @@ export default function Home() {
                                                 <h3 style={{ color: "#ffffff", background: "#1e1e1e", border: "#F86C6C solid  2px", width: "max-content", borderRadius: "10px", padding: '10px', position: 'absolute', top: '-30px', boxShadow: 'inset 0px 0px 8px 3px #F86C6C50,  0px 0px 4px #F86C6C, 0px 4px 8px #00000030' }}>Pending</h3>
                                             </div>
 
-                                            <BrowserCards task='Create Component' days={"5"} onSampleClick={handleToggle} clicked={isClicked}/>
+                                            <BrowserCards task='Click Me!' days={"5"} onSampleClick={handleToggle} clicked={isClicked} taskColor={'#92b173'}/>
                                             <BrowserCards task='New API Endpoints' days={"3"} isDisabled='true'/>
                                         </div>
                                         <div className='browser-cardholder'>
@@ -78,7 +78,7 @@ export default function Home() {
                                             </div>
 
                                             <BrowserCards task='Debug Core' days={"12"} isDisabled='true' pending='false' name='Paul'/>
-                                            {isDoing ?(<BrowserCards task='Create Component' days={"5"} isDisabled='true' pending='false' name='You'/>): null
+                                            {isDoing ?(<BrowserCards task='Im Here now!' taskColor={'#92b173'} days={"5"} isDisabled='true' pending='false' name='You'/>): null
                                             }
                                             
                                         </div>
