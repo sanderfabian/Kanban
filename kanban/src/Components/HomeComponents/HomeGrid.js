@@ -23,7 +23,7 @@ export default function HomeGrid() {
                         <span>Monitor the progress of each task and keep your project on track and steer your ship out of the storm!</span>
                     </div>
                     <div>
-                        <img style={{ height: '60px', width: '60px' }} src='https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-3d/256/Cloud-With-Lightning-And-Rain-3d-icon.png'></img>
+                        <img style={{ height: '30px', width: '30px' }} src='https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-3d/256/Cloud-With-Lightning-And-Rain-3d-icon.png'></img>
                     </div>
                 </div>
                 <div className='home-grid-card'>
@@ -35,7 +35,7 @@ export default function HomeGrid() {
                         <span>Collaborate seamlessly with your team and work together to efficiently produce wonders. </span>
                     </div>
                     <div>
-                        <img style={{ height: '60px', width: '60px' }} src='https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-3d/256/Globe-Showing-Europe-Africa-3d-icon.png'></img>
+                        <img style={{ height: '30px', width: '30px' }} src='https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-3d/256/Globe-Showing-Europe-Africa-3d-icon.png'></img>
                     </div>
                 </div>
                 <div className='home-grid-card'>
@@ -47,7 +47,7 @@ export default function HomeGrid() {
                         <span>Break down complex projects into manageable tasks and have them delivered as digestable undertakings.</span>
                     </div>
                     <div>
-                        <img style={{ height: '60px', width: '60px' }} src='https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-3d/256/Control-Knobs-3d-icon.png'></img>
+                        <img style={{ height: '30px', width: '30px' }} src='https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-3d/256/Control-Knobs-3d-icon.png'></img>
                     </div>
                 </div>
                 <div className='home-grid-card' style={{ overflow: 'hidden' }}>
@@ -58,8 +58,8 @@ export default function HomeGrid() {
                         </div>
                         <span>Provide useful comments and neatly formatted instructions to ensure the project values are shared.</span>
                     </div>
-                    <div style={{ position: 'relative', height: '60px', width: '60px' }}>
-                        <img style={{ height: '60px', width: '60px' }} src='https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-3d/512/Megaphone-3d-icon.png'></img>
+                    <div>
+                        <img style={{ height: '30px', width: '30px' }} src='https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-3d/512/Megaphone-3d-icon.png'></img>
 
                     </div>
                 </div>

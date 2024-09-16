@@ -6,6 +6,7 @@ import HomeSection from '../Components/HomeComponents/HomeSection';
 import HomeBrowser from '../Components/HomeComponents/HomeBrowser';
 import BrowserCards from '../Components/HomeComponents/BrowserCards';
 import React, { useState, useEffect, useRef } from 'react';
+import Footer from '../Components/HomeComponents/Footer';
 
 
 export default function Home() {
@@ -89,6 +90,8 @@ export default function Home() {
                     </HomeSection>
                 </section>
             </div>
+
+            <Footer></Footer>
         </div>
     );
 }

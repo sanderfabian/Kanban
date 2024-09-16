@@ -12,7 +12,7 @@ export default function Button({ children, additionalClass, onClick }) {
   
     return (
       <div>
-        <button className='btn' onClick={handleClick}>
+        <button className={additionalClass + ' btn'} onClick={handleClick}>
           {children}
         </button>
       </div>
