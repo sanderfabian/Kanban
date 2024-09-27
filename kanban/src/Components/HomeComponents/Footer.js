@@ -32,9 +32,7 @@ export default function Footer() {
 
 
       </div>
-      <div className='hero-circle' style={{ boxShadow: 'inset 0px 0px 8px 1px #55ffff,0px 0px 5px  #55ffff ,3px 4px 4px 0px #00000050' }}>
-
-      </div>
+     
     </div>
   )
 }
