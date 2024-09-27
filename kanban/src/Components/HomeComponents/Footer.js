@@ -17,7 +17,7 @@ export default function Footer() {
           </div>
 
 
-          <div style={{display:'flex',flexDirection:'column',gap:'10px', flex:'2'}}>
+          <div style={{display:'flex',flexDirection:'column',gap:'10px', flex:'1'}}>
             
           <div>
               <h2 style={{ margin: "0", color: "#ffffff", textShadow: '0px 2px 5px #00000050' }}>
